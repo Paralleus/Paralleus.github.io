@@ -31,7 +31,7 @@ function load_pages(){
                 var page = "";
 		for(i=0;i<pages.length;i+=3){
 			if(pages[i+1].indexOf("URL:") > -1){
-				toolbar += "&nbsp;&nbsp;<a href='#"+pages[i+1]+"'>"+pages[i]+"</a>&nbsp;&nbsp;"
+				toolbar += "&nbsp;&nbsp;<a href='"+pages[i+1].replace("URL:","")+"'>"+pages[i]+"</a>&nbsp;&nbsp;"
 			} else {
 				toolbar += "&nbsp;&nbsp;<a href='#"+pages[i]+"'>"+pages[i]+"</a>&nbsp;&nbsp;"
 			}
