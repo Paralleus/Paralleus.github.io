@@ -74,6 +74,7 @@ function php_echo(text){
 }
 
 function initialize(){
+	window.open("#blog","_self");
 	load_pages();
 	load_posts("posts.txt?time="+Date.now());
 	iconify();
