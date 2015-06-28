@@ -17,6 +17,31 @@ function php_file(file){
     rawFile.send(null);
 }
 
+function iconify(file){
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", "links.txt?time="+Date.now(), false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var links = String(rawFile.responseText).split("\n");
+                var data = "";
+		for(i=0;i<links.length;i+=3){
+			if(links[i].indexOf("FAVICON:") > -1){
+				if(links[i+1].indexOf("LINK:") > -1){
+					data+="<a href='"+links[i+1].replace("LINK:","")+"'><img src='"+links[i].replace("FAVICON:","")+"'></a>"
+				}
+			}
+		}
+		document.getElementById('links').innerHTML = data
+            }
+        }
+    }
+    rawFile.send(null);
+}
+
 function php_echo(text){
 	document.getElementById('posts').innerHTML += text;
 }
