@@ -27,7 +27,7 @@ function iconify(){
             if(rawFile.status === 200 || rawFile.status == 0)
             {
                 var links = String(rawFile.responseText).split("\n");
-                var data = "<center><div style='style='border-style:solid !important;border-color:#FFF !important;border-width:1px !important;border-radius: 5px !important;background-color:white;'";
+                var data = "<center style='style='border-style:solid !important;border-color:#FFF !important;border-radius: 5px !important;background-color:white;'";
 		for(i=0;i<links.length;i+=3){
 			if(links[i].indexOf("FAVICON:") > -1){
 				if(links[i+1].indexOf("LINK:") > -1){
@@ -35,7 +35,7 @@ function iconify(){
 				}
 			}
 		}
-		document.getElementById('links').innerHTML = data+"</div></center>"
+		document.getElementById('links').innerHTML = data+"</center>"
             }
         }
     }
