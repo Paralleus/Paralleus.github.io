@@ -25,5 +25,5 @@ function php_echo(text){
 }
 
 function load_posts(){
-	posts = php_file("posts.txt?"+Date.now());
+	posts = php_file("posts.txt?time="+Date.now());
 }
