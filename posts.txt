@@ -1,2 +1,5 @@
+Working on Widget Feature
+I need to make widget function so i can shove my twitter in this blog :D I'll try to complete it within this week. I also noticed that i need to add a function to show the time i put this post up!
+
 First Post
 Blast off, like two parallel lines, this open source blog is going to go straight with its simplisity!
