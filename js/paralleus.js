@@ -34,7 +34,7 @@ function load_pages(){
 				toolbar += "&nbsp;&nbsp;<a href='"+pages[i+1].replace("URL:","")+"'>"+pages[i]+"</a>&nbsp;&nbsp;"
 			} else {
 				toolbar += "&nbsp;&nbsp;<a href='#"+pages[i]+"'>"+pages[i]+"</a>&nbsp;&nbsp;"
-
+				page += "<page id="+pages[i]+"><h2>"+pages[i]+"</h2><text>"+pages[i+1]+"</text><page>"
 			}
 		}
 		document.getElementById('toolbar').innerHTML = toolbar
