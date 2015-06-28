@@ -47,6 +47,5 @@ function php_echo(text){
 }
 
 function load_posts(){
-	iconify()
 	posts = php_file("posts.txt?time="+Date.now());
 }
