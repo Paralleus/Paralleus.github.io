@@ -1,3 +1,6 @@
+Hello Pages
+I've decided to make a new function that allows you to make pages which automatically get added to a menu toolbar. I will try to complete it within this week.
+
 Bye Bye PHP
 I've decided that this project will be focused on making the blog with Js instead of PHP, i will stop developing the PHP files but i will keep them in the repositorie.
 
