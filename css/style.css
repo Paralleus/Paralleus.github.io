@@ -9,7 +9,8 @@ body {
 }
 #links {
 	background-color:white;
-
+	border-style: solid white;
+	border-radius:5px;
 }
 #logo {
 	text-align: center;
