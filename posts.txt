@@ -1,5 +1,5 @@
 Full off Bugs and necessary updates
-Using this source is a good way to squash bugs and find improvements. I've made a list to keep me on track <ul><li>Fix margin on second line of each post</li><li>Add Sidebar Widget Function</li><li>Remove post caching</li></ul>
+Using this source is a good way to squash bugs and find improvements. I've made a list to keep me on track <ul><li>Fix margin on second line of each post</li><li>Add Sidebar Widget Function</li><li><s>Remove post caching</s></li></ul>
 
 First Post
 Blast off, like two parallel lines, this open source blog is going to go straight with its simplisity!
