@@ -9,10 +9,7 @@ function php_file(file){
             {
                 var posts = String(rawFile.responseText).split("\n");
 		for(i=0;i<posts.length;i+=3){
-			php_echo("<div id=\"post\">\n");
-			php_echo("<h2>"+posts[i]+"</h2>\n");
-			php_echo("<text>"+posts[i+1]+"</text>\n");
-			php_echo("</div>\n");
+			php_echo("<div id=\"post\">\n<h2>"+posts[i]+"</h2>\n<text>"+posts[i+1]+"</text>\n</div>\n");
 		}
             }
         }
