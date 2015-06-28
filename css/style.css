@@ -5,7 +5,13 @@ body {
 	background-color: #ABB8C2;
 	margin: 0px;
 	padding: 10px;
+}
+page {
+  display: none;
+}
 
+*:target {
+  display: block;
 }
 #toolbar {
 	margin: -4px;
