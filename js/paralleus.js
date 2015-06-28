@@ -31,7 +31,7 @@ function iconify(file){
 		for(i=0;i<links.length;i+=3){
 			if(links[i].indexOf("FAVICON:") > -1){
 				if(links[i+1].indexOf("LINK:") > -1){
-					data+="<a href='"+links[i+1].replace("LINK:","")+"'><img src='"+links[i].replace("FAVICON:","")+"'></a>"
+					data+="<a href='"+links[i+1].replace("LINK:","")+"'><img height='16' src='"+links[i].replace("FAVICON:","")+"'></a>"
 				}
 			}
 		}
