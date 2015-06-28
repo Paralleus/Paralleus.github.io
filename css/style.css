@@ -31,7 +31,8 @@ body {
 	border-radius: 100%;
 	height: 90px;
 }
-#posts {	
+#posts {
+	z-index: 1;
 	margin: 0 auto;
 	width: 80%;
 	height: 60%;
