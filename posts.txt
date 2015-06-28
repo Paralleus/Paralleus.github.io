@@ -1,3 +1,6 @@
+Bye Bye PHP
+I've decided that this project will be focused on making the blog with Js instead of PHP, i will stop developing the PHP files but i will keep them in the repositorie.
+
 Full off Bugs and necessary updates
 Using this source is a good way to squash bugs and find improvements. I've made a list to keep me on track.<ul><li><s>Fix margin on second line of each post</s></li><li><s>Add Widget or External Links Function</s></li><li><s>Remove post caching</s></li></ul>
 
