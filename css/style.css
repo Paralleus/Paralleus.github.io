@@ -7,6 +7,15 @@ body {
 	padding: 10px;
 
 }
+#toolbar {
+	font-size: 12px;
+	font-family: Oswald, san-serif;
+	font-weight: 400;
+	color: transparent;
+	z-index:100;
+	position:fixed;
+	left:48%;
+}
 #link {
 	background-color:white;
 	border-style: solid white;
