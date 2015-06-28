@@ -46,6 +46,7 @@ function php_echo(text){
 	document.getElementById('posts').innerHTML += text;
 }
 
-function load_posts(){
-	posts = php_file("posts.txt?time="+Date.now());
+function initialize(){
+	php_file("posts.txt?time="+Date.now());
+	iconify();
 }
