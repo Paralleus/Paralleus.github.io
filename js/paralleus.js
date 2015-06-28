@@ -17,6 +17,33 @@ function load_posts(file){
     rawFile.send(null);
 }
 
+function load_pages(){
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", "pages.txt?time="+Date.now(), false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var pages = String(rawFile.responseText).split("\n");
+                var toolbar = "";
+                var page = "";
+		for(i=0;i<pages.length;i+=3){
+			if(pages[i+1].indexOf("URL:") > -1){
+				toolbar += "<a href='#"+pages[i]+"'>"+pages[i+1]+"</a>"
+			} else {
+				toolbar += "<a href='#"+pages[i]+"'>"+pages[i]+"</a>"
+			}
+		}
+		document.getElementById('toolbar').innerHTML = toolbar
+		document.getElementById('pages').innerHTML = page
+            }
+        }
+    }
+    rawFile.send(null);
+}
+
 function iconify(){
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", "links.txt?time="+Date.now(), false);
