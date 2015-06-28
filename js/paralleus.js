@@ -17,7 +17,7 @@ function php_file(file){
     rawFile.send(null);
 }
 
-function iconify(file){
+function iconify(){
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", "links.txt?time="+Date.now(), false);
     rawFile.onreadystatechange = function ()
@@ -47,5 +47,6 @@ function php_echo(text){
 }
 
 function load_posts(){
+	iconify()
 	posts = php_file("posts.txt?time="+Date.now());
 }
