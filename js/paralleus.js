@@ -31,9 +31,9 @@ function load_pages(){
                 var page = "";
 		for(i=0;i<pages.length;i+=3){
 			if(pages[i+1].indexOf("URL:") > -1){
-				toolbar += "<a href='#"+pages[i]+"'>"+pages[i+1]+"</a>"
+				toolbar += "<a href='#"+pages[i+1]+"'>"+pages[i]+"</a>&nbsp;"
 			} else {
-				toolbar += "<a href='#"+pages[i]+"'>"+pages[i]+"</a>"
+				toolbar += "<a href='#"+pages[i]+"'>"+pages[i]+"</a>&nbsp;"
 			}
 		}
 		document.getElementById('toolbar').innerHTML = toolbar
