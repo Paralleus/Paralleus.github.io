@@ -27,7 +27,7 @@ function iconify(file){
             if(rawFile.status === 200 || rawFile.status == 0)
             {
                 var links = String(rawFile.responseText).split("\n");
-                var data = "";
+                var data = "<center>";
 		for(i=0;i<links.length;i+=3){
 			if(links[i].indexOf("FAVICON:") > -1){
 				if(links[i+1].indexOf("LINK:") > -1){
@@ -35,7 +35,7 @@ function iconify(file){
 				}
 			}
 		}
-		document.getElementById('links').innerHTML = data
+		document.getElementById('links').innerHTML = data+"</center>"
             }
         }
     }
