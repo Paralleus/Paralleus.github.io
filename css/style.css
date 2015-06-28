@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+body {	
+	background-image: url("bg2.png");
+	background-color: #ABB8C2;
+	margin: 0px;
+	padding: 10px;
+
+}
+#logo {
+	text-align: center;
+	margin: 0 auto;
+	color: #FFF;
+	width: 250;
+	font-family: Oswald, san-serif;
+	font-size: 55px;
+	font-weight: 400;
+	border-width: 20px 0px 20px 0px;
+	border-style: solid;
+	border-radius:5px;
+}
+#avatar {
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	border-radius: 100%;
+	height: 90px;
+}
+#posts {	
+	margin: 0 auto;
+	width: 80%;
+	height: 60%;
+	border-width: 20px 20px 20px 20px;
+	border-style: solid;
+	border-color: white;
+	border-radius:5px;
+}
+#post {
+	text-align: left;
+	margin: 30px;
+	color: #FFF;
+}
+h2 { 
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-align: left;
+	margin: 0px 0px 5px 30px;
+	color: #FFF;
+}
+text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: left;
+	margin: 0px 0px 5px 30px;
+	color: #FFF;
+	
+}
+hr {
+	color: white;
+	border-style: solid;
+	border-color: white;
+
+}
+img { 
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	border-radius: 5px;
+	width: 50%;
+	text-align: left;
+	margin: 20px 0px 0px 30px;
+}
