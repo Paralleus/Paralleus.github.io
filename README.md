@@ -1,2 +1,2 @@
 # Paralleus
-Open Source Blogger written in Javascript and PHP!
+Open Source Blogger written in Javascript
