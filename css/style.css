@@ -7,11 +7,15 @@ body {
 	padding: 10px;
 }
 page {
-  display: none;
+	display: none;
 }
 
 *:target {
-  display: block;
+	display: block;
+}
+a {
+	text-decoration: none;
+	color: #ABB8C2;
 }
 #toolbar {
 	margin: -4px;
