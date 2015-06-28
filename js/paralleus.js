@@ -27,11 +27,11 @@ function iconify(){
             if(rawFile.status === 200 || rawFile.status == 0)
             {
                 var links = String(rawFile.responseText).split("\n");
-                var data = "<center id='links'>";
+                var data = "<center>";
 		for(i=0;i<links.length;i+=3){
 			if(links[i].indexOf("FAVICON:") > -1){
 				if(links[i+1].indexOf("LINK:") > -1){
-					data+="<a href='"+links[i+1].replace("LINK:","")+"'><img style='margin: 0px !important;width: 16px !important;' height='16' width='16' src='"+links[i].replace("FAVICON:","")+"'></a>&nbsp;&nbsp;&nbsp;"
+					data+="<a href='"+links[i+1].replace("LINK:","")+"'><img  id='link' style='margin: 0px !important;width: 16px !important;' height='16' width='16' src='"+links[i].replace("FAVICON:","")+"'></a>&nbsp;&nbsp;&nbsp;"
 				}
 			}
 		}
