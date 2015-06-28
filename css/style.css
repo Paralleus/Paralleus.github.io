@@ -9,6 +9,7 @@ body {
 }
 #links {
 	background-color:white;
+	border-height:20px;
 	border-style: solid white;
 	border-radius:5px;
 }
