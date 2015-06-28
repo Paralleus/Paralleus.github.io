@@ -1,4 +1,4 @@
-function php_file(file){
+function load_posts(file){
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
     rawFile.onreadystatechange = function ()
@@ -47,6 +47,6 @@ function php_echo(text){
 }
 
 function initialize(){
-	php_file("posts.txt?time="+Date.now());
+	load_posts("posts.txt?time="+Date.now());
 	iconify();
 }
