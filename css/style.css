@@ -33,6 +33,7 @@ body {
 }
 #posts {
 	z-index: 1;
+	position: absolute;
 	margin: 0 auto;
 	width: 80%;
 	height: 60%;
