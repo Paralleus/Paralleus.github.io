@@ -12,6 +12,7 @@ page {
 
 *:target {
 	display: block;
+	margin: 30px;
 }
 a {
 	text-decoration: none;
