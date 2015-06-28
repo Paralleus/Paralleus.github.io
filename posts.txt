@@ -1,5 +1,5 @@
-Working on Widget Feature
-I need to make widget function so i can shove my twitter in this blog :D I'll try to complete it within this week. I also noticed that i need to add a function to show the time i put this post up!
+Full off Bugs and necessary updates
+Using this source is a good way to squash bugs and find improvements. I've made a list to keep me on track <ul><li>Fix margin on second line of each post</li><li>Add Widget Function</li><li>Add Post Time function</li></ul>
 
 First Post
 Blast off, like two parallel lines, this open source blog is going to go straight with its simplisity!
