@@ -9,9 +9,8 @@ body {
 }
 #links {
 	background-color:white;
-	border-width:20px;
 	border-style: solid white;
-	border-radius:5px;
+	border-radius:100px !important;
 }
 #logo {
 	text-align: center;
