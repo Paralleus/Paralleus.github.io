@@ -70,7 +70,7 @@ function iconify(){
 }
 
 function php_echo(text){
-	document.getElementById('posts').innerHTML += text;
+	document.getElementById('blog').innerHTML += text;
 }
 
 function initialize(){
