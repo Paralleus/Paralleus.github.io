@@ -33,8 +33,8 @@ function load_pages(){
 			if(pages[i+1].indexOf("URL:") > -1){
 				toolbar += "&nbsp;&nbsp;<a href='"+pages[i+1].replace("URL:","")+"'>"+pages[i]+"</a>&nbsp;&nbsp;"
 			} else {
-				toolbar += "&nbsp;&nbsp;<a href='#"+pages[i]+"'>"+pages[i]+"</a>&nbsp;&nbsp;"
-				page += "<page id="+pages[i]+"><h2>"+pages[i]+"</h2><text>"+pages[i+1]+"</text><page>"
+				toolbar += "&nbsp;&nbsp;<a href='#"+pages[i].split(" ")[0]+"'>"+pages[i]+"</a>&nbsp;&nbsp;"
+				page += "<page id="+pages[i].split(" ")[0]+"><h2>"+pages[i]+"</h2><text>"+pages[i+1]+"</text></page>"
 			}
 		}
 		document.getElementById('toolbar').innerHTML = toolbar
