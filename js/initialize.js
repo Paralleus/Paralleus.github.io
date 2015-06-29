@@ -15,6 +15,7 @@ function loadjscssfile(filename, filetype){
 }
  
 function loadmain(){
+    document.getElementById("loader").style.display="none";
     loadjscssfile("js/scroller/jquery.mCustomScrollbar.css?time="+Date.now(), "css")
     loadjscssfile("css/style.css?time="+Date.now(), "css")
     loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "js")
