@@ -13,7 +13,9 @@ function loadjscssfile(filename, filetype){
     if (typeof fileref!="undefined")
         document.getElementsByTagName("head")[0].appendChild(fileref)
 }
-
+loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+$(window).load(function(){$(".loader").fadeOut("slow");})
+document.body.innerHTML += "<style>.loader {position: fixed;left: 0px;top: 0px;width: 100%;height: 100%;z-index: 9999;background: url('http://media.giphy.com/media/147upcc99OCGOI/giphy.gif') 50% 50%	no-repeat rgb(255,255,255);}</style>";
 loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "js")
 loadjscssfile("js/scroller/jquery.mCustomScrollbar.css?time="+Date.now(), "css")
 loadjscssfile("css/style.css?time="+Date.now(), "css")
