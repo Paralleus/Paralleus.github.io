@@ -7,17 +7,14 @@ body {
 	margin: 0px;
 	padding: 10px;
 }
-htmml {
-	margin:0px;
-	padding: 0px;
-}
 .loader {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background: url('http://dribbble.s3.amazonaws.com/users/121337/screenshots/1024835/loading2.gif')  no-repeat center center fixed;
-}
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('https://d13yacurqjgara.cloudfront.net/users/696837/screenshots/1949940/fyc-loading-gif.gif') 50% 50% 	no-repeat rgb(255,255,255);}
 page {
 	display: none;
 }
