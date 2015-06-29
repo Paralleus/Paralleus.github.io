@@ -14,7 +14,6 @@ function loadjscssfile(filename, filetype){
         document.getElementsByTagName("head")[0].appendChild(fileref)
 }
 loadjscssfile("css/style.css?time="+Date.now(), "css")
-loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js","js");
 loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "js")
 loadjscssfile("js/scroller/jquery.mCustomScrollbar.css?time="+Date.now(), "css")
 loadjscssfile("js/paralleus.js?time="+Date.now(), "js")
