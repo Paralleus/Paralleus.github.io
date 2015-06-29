@@ -1,8 +1,8 @@
 About
-This website is an attempt to make a fully fledged blogging engine with just simple HTML, CSS and Javascript.
+This website is an attempt to make a fully fledged blogging engine with just simple HTML, CSS and Javascript. So far this open source website has managed to achive pages and external links, i am hoping that this will improve more soon!
 
 Blog
 URL:#blog
 
 How it Works
-To make posts there must always be a extra paragraph seperating each post. The first line is the title, the second is the text, this goes with this file too. The first line is the title the next is the text, after that there must be an extra empty paragraph to make sure Paralleus knows that its a different page. You can insert your own HTML into each post whenever you want, just try to make it not too destructive!
+<h3>Making Posts</h3>To make posts there must always be a extra paragraph seperating each post. The first line is the title, the second is the text, this goes with the pages file too.<h3>Extra Improvements</h3>You can insert your own HTML into each post whenever you want, just try to make it cool and creative and not too crazy destructive!
