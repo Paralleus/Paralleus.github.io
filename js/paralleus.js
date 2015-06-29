@@ -29,11 +29,21 @@ function load_pages(){
                 var pages = String(rawFile.responseText).split("\n");
                 var toolbar = "";
                 var page = "";
+                
 		for(i=0;i<pages.length;i+=3){
 			if(pages[i+1].indexOf("URL:") > -1){
-				toolbar += "&nbsp;&nbsp;<a href='"+pages[i+1].replace("URL:","")+"'>"+pages[i]+"</a>&nbsp;&nbsp;"
+				if(i==pages.length/3){
+					toolbar += "&nbsp;&nbsp;<a href='"+pages[i+1].replace("URL:","")+"'>"+pages[i]+"</a>"
+				} else {
+					toolbar += "&nbsp;&nbsp;<a href='"+pages[i+1].replace("URL:","")+"'>"+pages[i]+"</a>&nbsp;&nbsp|"
+				}
 			} else {
-				toolbar += "&nbsp;&nbsp;<a href='#"+pages[i].split(" ")[0]+"'>"+pages[i]+"</a>&nbsp;&nbsp;"
+				if(i==pages.length/3){
+					toolbar += "&nbsp;&nbsp;<a href='#"+pages[i].split(" ")[0]+"'>"+pages[i]+"</a>"
+				} else {
+					toolbar += "&nbsp;&nbsp;<a href='#"+pages[i].split(" ")[0]+"'>"+pages[i]+"</a>&nbsp;&nbsp;|"
+				}
+				}
 				page += "<page id="+pages[i].split(" ")[0]+"><h2>"+pages[i]+"</h2><text>"+pages[i+1]+"</text></page>"
 			}
 		}
