@@ -32,15 +32,15 @@ function load_pages(){
 		for(i=0;i<pages.length;i+=3){
 			if(pages[i+1].indexOf("URL:") > -1){
 				if(i==pages.length-3){
-					toolbar += "&nbsp;&nbsp;<a id='page_link' onclick='window.open(\'#"+pages[i+1].replace("URL:","")+"\',\'_self\')'>"+pages[i]+"</a>"
+					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='window.open(\'#"+pages[i+1].replace("URL:","")+"\',\'_self\')'>"+pages[i]+"</t>"
 				} else {
-					toolbar += "&nbsp;&nbsp;<a id='page_link' onclick='window.open(\'#"+pages[i+1].replace("URL:","")+"\',\'_self\')'>"+pages[i]+"</a>&nbsp;&nbsp|"
+					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='window.open(\'#"+pages[i+1].replace("URL:","")+"\',\'_self\')'>"+pages[i]+"</t>&nbsp;&nbsp|"
 				}
 			} else {
 				if(i==pages.length-3){
-					toolbar += "&nbsp;&nbsp;<a id='page_link' onclick='window.open(\'#"+pages[i].split(" ")[0]+"\',\'_self\')'>"+pages[i]+"</a>"
+					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='window.open(\'#"+pages[i].split(" ")[0]+"\',\'_self\')'>"+pages[i]+"</t>"
 				} else {
-					toolbar += "&nbsp;&nbsp;<a id='page_link' onclick='window.open(\'#"+pages[i].split(" ")[0]+"\',\'_self\')'>"+pages[i]+"\',\'_self\')</a>&nbsp;&nbsp;|"
+					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='window.open(\'#"+pages[i].split(" ")[0]+"\',\'_self\')'>"+pages[i]+"\',\'_self\')</t>&nbsp;&nbsp;|"
 				}
 				page += "<page id="+pages[i].split(" ")[0]+"><h2>"+pages[i]+"</h2><text>"+pages[i+1]+"</text></page>"
 			}
