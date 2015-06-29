@@ -7,14 +7,16 @@ body {
 	margin: 0px;
 	padding: 10px;
 }
+htmml {
+	margin:0px;
+	padding: 0px;
+}
 .loader {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url('http://dribbble.s3.amazonaws.com/users/121337/screenshots/1024835/loading2.gif') 100% 100% 	no-repeat rgb(255,255,255);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: url('http://dribbble.s3.amazonaws.com/users/121337/screenshots/1024835/loading2.gif')  no-repeat center center fixed;
 }
 page {
 	display: none;
