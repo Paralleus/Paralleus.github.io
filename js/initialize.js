@@ -13,11 +13,11 @@ function loadjscssfile(filename, filetype){
     if (typeof fileref!="undefined")
         document.getElementsByTagName("head")[0].appendChild(fileref)
 }
+loadjscssfile("css/style.css?time="+Date.now(), "css")
 loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js","js");
-loadjscssfile("js/loader.js")
+$(window).load(function(){$(".loader").fadeOut("slow");})
 loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "js")
 loadjscssfile("js/scroller/jquery.mCustomScrollbar.css?time="+Date.now(), "css")
-loadjscssfile("css/style.css?time="+Date.now(), "css")
 loadjscssfile("js/paralleus.js?time="+Date.now(), "js")
 loadjscssfile("js/scroller/jquery.mCustomScrollbar.concat.min.js?time="+Date.now(), "js")
 loadjscssfile("js/load_scroller.js?time="+Date.now(), "js")
