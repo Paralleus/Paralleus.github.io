@@ -25,4 +25,5 @@ function loadmain(){
 function loadscroll(){
     loadjscssfile("js/scroller/jquery.mCustomScrollbar.concat.min.js?time="+Date.now(), "js")
     loadjscssfile("js/load_scroller.js?time="+Date.now(), "js")
+    document.getElementById("loader").style.display="none";
 }
