@@ -1,3 +1,6 @@
+Stopping File Caching!
+Now that i've done pages, i've decided to make a function to make all the external files not have any caching. Im going to do this by making a completely new Javascript File which loads all the Javascript and CSS without any caching!
+
 Pages Finished!
 Hurray at last i've managed to finish the pages function, done and dusted! More improvements coming soon!
 
