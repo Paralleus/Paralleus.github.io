@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 body {	
-	color:transparent;
-	background-image: url("bg2.png");
+	color: transparent;
+	background-image: url("../images/bg.png");
 	background-color: #ABB8C2;
 	margin: 0px;
 	padding: 10px;
@@ -15,7 +15,7 @@ body {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url('http://i.imgur.com/NDGwZrm.gif') 50% 50% 	no-repeat rgb(255,255,255);}
+	background: url('../images/loader.gif') 50% 50% 	no-repeat rgb(255,255,255);}
 page {
 	display: none;
 }
