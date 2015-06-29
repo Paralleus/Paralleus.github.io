@@ -1,3 +1,6 @@
+Pages Finished!
+Hurray at last i've managed to finish the pages function, done and dusted! More improvements coming soon!
+
 Hello Pages
 I've decided to make a new function that allows you to make pages which automatically get added to a menu toolbar. I will try to complete it within this week.
 
