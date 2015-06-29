@@ -32,15 +32,15 @@ function load_pages(){
 		for(i=0;i<pages.length;i+=3){
 			if(pages[i+1].indexOf("URL:") > -1){
 				purl = "#"+pages[i+1].replace("URL:","");
-				lhref = "window.open('"+purl+",'_self')"
+				lhref = "window.open(\'"+purl+"\',\'_self\')"
 				if(i==pages.length-3){
-					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='"+lhref+"\',\'_self\')'>"+pages[i]+"</t>"
+					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='"+lhref+"'>"+pages[i]+"</t>"
 				} else {
 					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='"+lhref+"'>"+pages[i]+"</t>&nbsp;&nbsp|"
 				}
 			} else {
 				purl = "#"+pages[i].split(" ")[0];
-				lhref = "window.open('"+purl+",'_self')"
+				lhref = "window.open(\'"+purl+"\',\'_self\')"
 				if(i==pages.length-3){
 					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='"+lhref+"'>"+pages[i]+"</t>"
 				} else {
