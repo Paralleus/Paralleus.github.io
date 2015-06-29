@@ -18,5 +18,6 @@ loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
 loadjscssfile("js/scroller/jquery.mCustomScrollbar.css", "css")
 loadjscssfile("css/style.css", "css")
 loadjscssfile("js/paralleus.js", "js")
+initialize()
 loadjscssfile("js/scroller/jquery.mCustomScrollbar.concat.min.js", "js")
 loadjscssfile("js/load_scroller.js", "js")
