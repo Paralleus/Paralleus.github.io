@@ -19,7 +19,6 @@ function loadmain(){
     loadjscssfile("css/style.css", "css")
     loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "js")
     loadjscssfile("js/paralleus.js", "js")
-    initialize()
 }
 
 function loadscroll(){
