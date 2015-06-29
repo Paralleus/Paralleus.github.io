@@ -14,10 +14,15 @@ function loadjscssfile(filename, filetype){
         document.getElementsByTagName("head")[0].appendChild(fileref)
 }
  
-loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "js")
-loadjscssfile("js/scroller/jquery.mCustomScrollbar.css", "css")
-loadjscssfile("css/style.css", "css")
-loadjscssfile("js/paralleus.js", "js")
-initialize()
-loadjscssfile("js/scroller/jquery.mCustomScrollbar.concat.min.js", "js")
-loadjscssfile("js/load_scroller.js", "js")
+function loadmain(){
+    loadjscssfile("js/scroller/jquery.mCustomScrollbar.css", "css")
+    loadjscssfile("css/style.css", "css")
+    loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "js")
+    loadjscssfile("js/paralleus.js", "js")
+    initialize()
+}
+
+function loadscroll(){
+    loadjscssfile("js/scroller/jquery.mCustomScrollbar.concat.min.js", "js")
+    loadjscssfile("js/load_scroller.js", "js")
+}
