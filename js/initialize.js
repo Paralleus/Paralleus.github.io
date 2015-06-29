@@ -15,7 +15,6 @@ function loadjscssfile(filename, filetype){
 }
 
 loadjscssfile("http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", "js")
-$("#load").hide(0).delay(500).fadeIn(3000)
 loadjscssfile("js/scroller/jquery.mCustomScrollbar.css?time="+Date.now(), "css")
 loadjscssfile("css/style.css?time="+Date.now(), "css")
 loadjscssfile("js/paralleus.js?time="+Date.now(), "js")
