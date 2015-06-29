@@ -28,9 +28,10 @@ page {
 }
 a {
 	text-decoration: none;
-	color: #ABB8C2;
+	color: white;
 }
 #toolbar {
+	color: #ABB8C2 !important;
 	margin: -3.1px;
 	font-size: 17px;
 	font-family: Oswald, san-serif;
