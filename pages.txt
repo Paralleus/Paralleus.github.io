@@ -6,3 +6,6 @@ URL:#blog
 
 How it Works
 <h3><u>Making Posts</u></h3>To make posts there must always be a extra paragraph seperating each post. The first line is the title, the second is the text, this goes with the pages file too.<h3><u>Extra Improvements</u></h3>You can insert your own HTML into each post whenever you want, just try to make it cool and creative and not too crazy destructive!
+
+Report Bugs
+Found a bug?<br>Send a bug report to the <a href="https://github.com/Paralleus/paralleus.github.io/issues/new">Project Issue Page</a>!
