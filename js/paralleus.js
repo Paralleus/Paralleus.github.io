@@ -67,7 +67,7 @@ function iconify(){
 		for(i=0;i<links.length;i+=3){
 			if(links[i].indexOf("FAVICON:") > -1){
 				if(links[i+1].indexOf("LINK:") > -1){
-					data+="<a href='"+links[i+1].replace("LINK:","")+"'><img  id='link' style='margin: 0px !important;width: 16px !important;' height='16' width='16' src='"+links[i].replace("FAVICON:","")+"'></a>&nbsp;&nbsp;&nbsp;"
+					data+="<a href='"+links[i+1].replace("LINK:","")+"'><img  id='link' style='margin: 0px !important;width: 16px !important;' height='16' width='16' src='http://www.google.com/s2/favicons?domain="+links[i].replace("FAVICON:","")+"'></a>&nbsp;&nbsp;&nbsp;"
 				}
 			}
 		}
