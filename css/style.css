@@ -21,14 +21,16 @@ body {
 page {
 	display: none;
 }
-
+page_link {
+	color: #ABB8C2 !important
+}
 *:target {
 	display: block;
 	margin: 30px;
 }
 a {
 	text-decoration: none;
-	color: white;
+	color: #666;
 }
 #toolbar {
 	color: #ABB8C2 !important;
