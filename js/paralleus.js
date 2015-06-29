@@ -43,7 +43,6 @@ function load_pages(){
 				} else {
 					toolbar += "&nbsp;&nbsp;<a href='#"+pages[i].split(" ")[0]+"'>"+pages[i]+"</a>&nbsp;&nbsp;|"
 				}
-				}
 				page += "<page id="+pages[i].split(" ")[0]+"><h2>"+pages[i]+"</h2><text>"+pages[i+1]+"</text></page>"
 			}
 		}
