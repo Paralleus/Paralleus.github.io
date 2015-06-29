@@ -6,6 +6,7 @@ body {
 	background-color: #ABB8C2;
 	margin: 0px;
 	padding: 10px;
+	overflow:hidden;
 }
 .loader {
 	position: fixed;
