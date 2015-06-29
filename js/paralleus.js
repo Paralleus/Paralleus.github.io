@@ -37,10 +37,11 @@ function load_pages(){
 					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='window.open(\'#"+pages[i+1].replace("URL:","")+"\',\'_self\')'>"+pages[i]+"</t>&nbsp;&nbsp|"
 				}
 			} else {
+				purl = "#"+pages[i].split(" ")[0];
 				if(i==pages.length-3){
-					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='window.open(\'#"+pages[i].split(" ")[0]+"\',\'_self\')'>"+pages[i]+"</t>"
+					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='window.open(\'"+purl+"\',\'_self\')'>"+pages[i]+"</t>"
 				} else {
-					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='window.open(\'#"+pages[i].split(" ")[0]+"\',\'_self\')'>"+pages[i]+"\',\'_self\')</t>&nbsp;&nbsp;|"
+					toolbar += "&nbsp;&nbsp;<t id='page_link' onclick='window.open(\'"+purl+"\',\'_self\')'>"+pages[i]+"</t>&nbsp;&nbsp;|"
 				}
 				page += "<page id="+pages[i].split(" ")[0]+"><h2>"+pages[i]+"</h2><text>"+pages[i+1]+"</text></page>"
 			}
