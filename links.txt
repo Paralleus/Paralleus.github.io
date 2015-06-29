@@ -1,5 +1,5 @@
-FAVICON:http://abs.twimg.com/favicons/favicon.ico
+FAVICON:http://twitter.com
 LINK:http://twitter.com/paralleus
 
-FAVICON:https://assets-cdn.github.com/favicon.ico
+FAVICON:https://github.com
 LINK:https://github.com/Paralleus/paralleus.github.io/
