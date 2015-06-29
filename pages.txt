@@ -1,5 +1,5 @@
 About
-This website is an attempt to make a fully fledged blogging engine with just simple HTML, CSS and Javascript. So far this open source website has managed to achive pages and external links, i am hoping that this will improve more soon!
+This website is an attempt to make a fully fledged blogging engine with just simple HTML, CSS and Javascript. So far this open source website has managed to achive amazing heights! I am hoping that this will improve more soon!
 
 Blog
 URL:#blog
