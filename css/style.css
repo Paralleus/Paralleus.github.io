@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 body {	
+	color:transparent;
 	background-image: url("bg2.png");
 	background-color: #ABB8C2;
 	margin: 0px;
