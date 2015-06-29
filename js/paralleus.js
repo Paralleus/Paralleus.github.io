@@ -82,11 +82,9 @@ function php_echo(text){
 	document.getElementById('blog').innerHTML += text;
 }
 
-function initialize(){
 	if(window.location.href.indexOf("#") < 0){
 		window.open("#blog","_self");
 	}
 	load_pages();
 	load_posts("posts.txt?time="+Date.now());
 	iconify();
-}
