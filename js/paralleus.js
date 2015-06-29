@@ -31,7 +31,7 @@ function load_pages(){
                 var page = "";
 		for(i=0;i<pages.length;i+=3){
 			if(pages[i+1].indexOf("URL:") > -1){
-				purl = "#"+pages[i+1].replace("URL:","");
+				purl = pages[i+1].replace("URL:","");
 				lhref = "window.open('"+purl+"','_self')"
 				if(i==pages.length-3){
 					toolbar += "&nbsp;&nbsp;<t id=\"page_link\" onclick=\""+lhref+"\">"+pages[i]+"</t>"
