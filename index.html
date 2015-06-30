@@ -1,11 +1,12 @@
 <html>
 <head>
-<img src="images/loader.gif" style="display:none;"/>
-<style>body{color:transparent;}</style>
-<div class="loader"></div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="js/initialize.js"></script>
 <script>$(window).load(function(){$(".loader").fadeOut("slow");})</script>
+<style>body{color:transparent;}
+.loader {position: fixed;left: 0px;top: 0px;width: 100%;height: 100%;z-index:9999;
+background: url('../images/loader.gif') 50% 50% 	no-repeat #FFFFFF;}</style>
+<div class="loader"></div>
+<script src="js/initialize.js"></script>
 <title>Paralleus</title>
 <link rel="shortcut icon" type="image/png" href="images/icon.png"/>
 <meta property="og:title" content="Paralleus">
