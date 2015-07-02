@@ -1,5 +1,5 @@
-FAVICON:http://twitter.com
+FAVICON:twitter.com
 LINK:http://twitter.com/paralleus
 
-FAVICON:https://github.com
+FAVICON:github.com
 LINK:https://github.com/Paralleus/paralleus.github.io/
